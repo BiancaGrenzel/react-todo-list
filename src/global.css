@@ -1,0 +1,45 @@
+:root {
+  --white: #fdfdff;
+
+  --gray-300: #45465b;
+  --gray-500: #23233b;
+  --gray-900: #0f102c;
+
+  --pink-500: #fe7aa9;
+
+  --purple-500: #6073ee;
+}
+
+:focus {
+  outline: transparent !important;
+  box-shadow: 0 0 0 2px var(--purple-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("assets/background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 1624px) {
+  body {
+    background: var(--gray-900);
+  }
+}

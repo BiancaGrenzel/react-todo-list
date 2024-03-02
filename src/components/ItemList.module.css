@@ -1,0 +1,38 @@
+.itemList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--gray-300);
+  border-radius: 8px;
+  align-items: center;
+}
+
+.itemListSelected {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+
+  background: var(--gray-300);
+
+  border-radius: 8px;
+
+  align-items: center;
+  opacity: 0.5;
+}
+
+.item {
+  display: flex;
+  gap: 2rem;
+}
+
+.item > input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.icon {
+  color: var(--pink-500);
+  cursor: pointer;
+}
